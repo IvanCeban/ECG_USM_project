@@ -11,3 +11,10 @@
 .modal-content .form-group {
     border-bottom: none!important;
 }
+
+.modal-header {
+    margin-bottom: 15px;
+}
+.modal-dialog {
+    width: 700px;
+}
