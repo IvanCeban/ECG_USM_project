@@ -12,10 +12,10 @@ $(document).ready(function () {
             "position": "left",
             "title": "Напряжение"
         },
-        {
-            "position": "right",
-            "title": "Напряжение"
-        }],
+            {
+                "position": "right",
+                "title": "Напряжение"
+            }],
         "graphs": [{
             "id": "g1",
             "fillAlphas": 0,
@@ -23,13 +23,13 @@ $(document).ready(function () {
             "balloonText": "<div style='margin:5px; font-size:16px;'><b>[[value]]</b> mV</div>",
             "lineColor": "red"
         },
-        {
-            "id": "g2",
-            "fillAlphas": 0,
-            "valueField": "illness",
-            "balloonText": "<div style='margin:5px; font-size:16px;'><b>[[value]]</b> mV</div>",
-            "lineColor": "blue"
-        }],
+            {
+                "id": "g2",
+                "fillAlphas": 0,
+                "valueField": "illness",
+                "balloonText": "<div style='margin:5px; font-size:16px;'><b>[[value]]</b> mV</div>",
+                "lineColor": "blue"
+            }],
         "chartScrollbar": {
             "graph": "g1",
             "scrollbarHeight": 80,
