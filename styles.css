@@ -1,4 +1,4 @@
-#chartdiv {
+#chart-v1, #chart-v2, #chart-v3, #chart-v4, #chart-v5, #chart-v6, #chart-I, #chart-II, #chart-III, #chart-avr, #chart-avl, #chart-avf {
     width: 100%;
     height: 500px;
 }
@@ -17,4 +17,8 @@
 }
 .modal-dialog {
     width: 700px;
+}
+
+.edit > .tab-pane .col-sm-4:first-child, .edit > .tab-pane .col-sm-4:last-child, .show > .tab-pane .col-sm-4:first-child, .show > .tab-pane .col-sm-4:last-child, .insert .col-sm-4:last-child, .pagination  {
+    display: none;
 }
